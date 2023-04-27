@@ -20,6 +20,7 @@ class MainViewController: UIViewController {
     
     private func createScene() {
         let sceneView = SCNView(frame: view.frame)
+        sceneView.allowsCameraControl = true // Allows user to manipulate camera.
         view.addSubview(sceneView)
         
         let scene = SCNScene()

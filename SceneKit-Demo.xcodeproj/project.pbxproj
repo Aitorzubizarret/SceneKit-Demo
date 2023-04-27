@@ -9,7 +9,6 @@
 /* Begin PBXBuildFile section */
 		1ACE8D0A29FAB83B00A5C63B /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1ACE8D0929FAB83B00A5C63B /* AppDelegate.swift */; };
 		1ACE8D0C29FAB83B00A5C63B /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1ACE8D0B29FAB83B00A5C63B /* SceneDelegate.swift */; };
-		1ACE8D0E29FAB83B00A5C63B /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1ACE8D0D29FAB83B00A5C63B /* ViewController.swift */; };
 		1ACE8D1329FAB83C00A5C63B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1ACE8D1229FAB83C00A5C63B /* Assets.xcassets */; };
 		1ACE8D1629FAB83C00A5C63B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1ACE8D1429FAB83C00A5C63B /* LaunchScreen.storyboard */; };
 		1ACE8D2129FAB83C00A5C63B /* SceneKit_DemoTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1ACE8D2029FAB83C00A5C63B /* SceneKit_DemoTests.swift */; };
@@ -38,7 +37,6 @@
 		1ACE8D0629FAB83B00A5C63B /* SceneKit-Demo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "SceneKit-Demo.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		1ACE8D0929FAB83B00A5C63B /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		1ACE8D0B29FAB83B00A5C63B /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		1ACE8D0D29FAB83B00A5C63B /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		1ACE8D1229FAB83C00A5C63B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		1ACE8D1529FAB83C00A5C63B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		1ACE8D1729FAB83C00A5C63B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -97,12 +95,9 @@
 		1ACE8D0829FAB83B00A5C63B /* SceneKit-Demo */ = {
 			isa = PBXGroup;
 			children = (
-				1ACE8D0929FAB83B00A5C63B /* AppDelegate.swift */,
-				1ACE8D0B29FAB83B00A5C63B /* SceneDelegate.swift */,
-				1ACE8D0D29FAB83B00A5C63B /* ViewController.swift */,
-				1ACE8D1229FAB83C00A5C63B /* Assets.xcassets */,
-				1ACE8D1429FAB83C00A5C63B /* LaunchScreen.storyboard */,
-				1ACE8D1729FAB83C00A5C63B /* Info.plist */,
+				1ACE8D3A29FAB9AC00A5C63B /* App */,
+				1ACE8D3929FAB99A00A5C63B /* Resources */,
+				1ACE8D3B29FAB9B900A5C63B /* Supporting files */,
 			);
 			path = "SceneKit-Demo";
 			sourceTree = "<group>";
@@ -122,6 +117,32 @@
 				1ACE8D2C29FAB83C00A5C63B /* SceneKit_DemoUITestsLaunchTests.swift */,
 			);
 			path = "SceneKit-DemoUITests";
+			sourceTree = "<group>";
+		};
+		1ACE8D3929FAB99A00A5C63B /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				1ACE8D1229FAB83C00A5C63B /* Assets.xcassets */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		1ACE8D3A29FAB9AC00A5C63B /* App */ = {
+			isa = PBXGroup;
+			children = (
+				1ACE8D0929FAB83B00A5C63B /* AppDelegate.swift */,
+				1ACE8D0B29FAB83B00A5C63B /* SceneDelegate.swift */,
+			);
+			path = App;
+			sourceTree = "<group>";
+		};
+		1ACE8D3B29FAB9B900A5C63B /* Supporting files */ = {
+			isa = PBXGroup;
+			children = (
+				1ACE8D1729FAB83C00A5C63B /* Info.plist */,
+				1ACE8D1429FAB83C00A5C63B /* LaunchScreen.storyboard */,
+			);
+			path = "Supporting files";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -254,7 +275,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				1ACE8D0E29FAB83B00A5C63B /* ViewController.swift in Sources */,
 				1ACE8D0A29FAB83B00A5C63B /* AppDelegate.swift in Sources */,
 				1ACE8D0C29FAB83B00A5C63B /* SceneDelegate.swift in Sources */,
 			);
@@ -427,7 +447,7 @@
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = V9WUS7ZBGW;
 				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_FILE = "SceneKit-Demo/Info.plist";
+				INFOPLIST_FILE = "SceneKit-Demo/Supporting files/Info.plist";
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = "";
@@ -455,7 +475,7 @@
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = V9WUS7ZBGW;
 				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_FILE = "SceneKit-Demo/Info.plist";
+				INFOPLIST_FILE = "SceneKit-Demo/Supporting files/Info.plist";
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = "";

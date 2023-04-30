@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		1A46862029FE7A5D00A50ADC /* ProgrammaticallyViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1A46861F29FE7A5D00A50ADC /* ProgrammaticallyViewController.swift */; };
 		1ACE8D0A29FAB83B00A5C63B /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1ACE8D0929FAB83B00A5C63B /* AppDelegate.swift */; };
 		1ACE8D0C29FAB83B00A5C63B /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1ACE8D0B29FAB83B00A5C63B /* SceneDelegate.swift */; };
 		1ACE8D1329FAB83C00A5C63B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1ACE8D1229FAB83C00A5C63B /* Assets.xcassets */; };
@@ -35,6 +36,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		1A46861F29FE7A5D00A50ADC /* ProgrammaticallyViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProgrammaticallyViewController.swift; sourceTree = "<group>"; };
 		1ACE8D0629FAB83B00A5C63B /* SceneKit-Demo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "SceneKit-Demo.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		1ACE8D0929FAB83B00A5C63B /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		1ACE8D0B29FAB83B00A5C63B /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -74,6 +76,14 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		1A46861C29FE787200A50ADC /* Programmatically */ = {
+			isa = PBXGroup;
+			children = (
+				1A46861F29FE7A5D00A50ADC /* ProgrammaticallyViewController.swift */,
+			);
+			path = Programmatically;
+			sourceTree = "<group>";
+		};
 		1ACE8CFD29FAB83B00A5C63B = {
 			isa = PBXGroup;
 			children = (
@@ -152,6 +162,7 @@
 			isa = PBXGroup;
 			children = (
 				1ACE8D3D29FABAAD00A5C63B /* Main */,
+				1A46861C29FE787200A50ADC /* Programmatically */,
 			);
 			path = Modules;
 			sourceTree = "<group>";
@@ -294,6 +305,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				1A46862029FE7A5D00A50ADC /* ProgrammaticallyViewController.swift in Sources */,
 				1ACE8D3F29FABAE500A5C63B /* MainViewController.swift in Sources */,
 				1ACE8D0A29FAB83B00A5C63B /* AppDelegate.swift in Sources */,
 				1ACE8D0C29FAB83B00A5C63B /* SceneDelegate.swift in Sources */,
